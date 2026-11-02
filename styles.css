@@ -207,8 +207,9 @@ h1, h2, h3, h4, p { margin-top: 0; }
 .team-card { position: relative; min-height: 260px; padding: 17px; border: 1px solid var(--line); background: rgba(255,255,255,.46); transition: transform .25s ease, background .25s ease, border-color .25s ease; }
 .team-card:hover { transform: translateY(-5px); background: #fff; border-color: #c9d3c7; }
 .team-card-featured { background: #e8efdc; border-color: #e0e8d5; }
-.team-avatar { position: relative; display: grid; place-items: center; width: 100%; height: 122px; overflow: hidden; margin-bottom: 20px; background: #d9e2d3; }
-.team-avatar span { position: relative; z-index: 2; color: rgba(22,38,48,.72); font: 800 28px var(--font-display); letter-spacing: -.08em; }
+.team-avatar { position: relative; display: grid; place-items: center; width: 100%; aspect-ratio: 1; overflow: hidden; margin-bottom: 20px; background: #d9e2d3; }
+.team-avatar span { position: absolute; z-index: 2; inset: 0; color: rgba(22,38,48,.72); font: 800 28px var(--font-display); letter-spacing: -.08em; }
+.team-avatar img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; }
 .team-avatar i { position: absolute; right: -15px; bottom: -50px; width: 130px; height: 130px; border: 1px solid rgba(33,58,52,.16); border-radius: 50%; box-shadow: 0 0 0 20px rgba(33,58,52,.035), 0 0 0 40px rgba(33,58,52,.025); }
 .avatar-two { background: #dce4ec; }.avatar-two i { border-color: rgba(45,71,99,.16); }
 .avatar-three { background: #eee2d9; }.avatar-three i { border-color: rgba(113,73,50,.16); }
@@ -316,7 +317,6 @@ h1, h2, h3, h4, p { margin-top: 0; }
   .approach-step { grid-template-columns: 28px 1fr 25px; gap: 12px; }
   .team-grid { gap: 10px; }
   .team-card { min-height: 245px; padding: 12px; }
-  .team-avatar { height: 100px; }
   .team-info h3 { font-size: 16px; }
   .team-info p { font-size: 9px; }
   .contact-section { padding-top: 0; }
@@ -339,7 +339,6 @@ h1, h2, h3, h4, p { margin-top: 0; }
   .principle strong { font-size: 12px; }
   .team-grid { grid-template-columns: 1fr 1fr; }
   .team-card { min-height: 230px; }
-  .team-avatar { height: 85px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
