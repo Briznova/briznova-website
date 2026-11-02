@@ -218,7 +218,7 @@ h1, h2, h3, h4, p { margin-top: 0; }
 .avatar-four { background: #e5e2ef; }.avatar-four i { border-color: rgba(77,66,111,.16); }
 .team-role { color: #89948c; font-size: 8px; font-weight: 700; letter-spacing: .12em; }
 .team-info h3 { margin: 8px 0 6px; font: 800 18px var(--font-display); letter-spacing: -.04em; }
-.team-info p { max-width: 210px; margin: 0; color: #7b8790; font-size: 10px; line-height: 1.6; }
+.team-info p { max-width: 210px; margin: 0; color: #292f34; font-size: 12px; line-height: 1.6; }
 .team-card-number { position: absolute; right: 17px; top: 17px; color: rgba(31,48,58,.35); font-size: 9px; }
 .team-note { margin: 17px 0 0; color: #87918d; font-size: 10px; }
 .team-note code { color: #58675d; }
