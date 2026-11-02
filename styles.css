@@ -210,6 +210,8 @@ h1, h2, h3, h4, p { margin-top: 0; }
 .team-avatar { position: relative; display: grid; place-items: center; width: 100%; aspect-ratio: 1; overflow: hidden; margin-bottom: 20px; background: #d9e2d3; }
 .team-avatar span { position: absolute; z-index: 2; inset: 0; color: rgba(22,38,48,.72); font: 800 28px var(--font-display); letter-spacing: -.08em; }
 .team-avatar img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; }
+.avatar-one img { object-position: center 65%; }
+.avatar-two img { object-position: center; }
 .team-avatar i { position: absolute; right: -15px; bottom: -50px; width: 130px; height: 130px; border: 1px solid rgba(33,58,52,.16); border-radius: 50%; box-shadow: 0 0 0 20px rgba(33,58,52,.035), 0 0 0 40px rgba(33,58,52,.025); }
 .avatar-two { background: #dce4ec; }.avatar-two i { border-color: rgba(45,71,99,.16); }
 .avatar-three { background: #eee2d9; }.avatar-three i { border-color: rgba(113,73,50,.16); }
