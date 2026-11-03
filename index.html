@@ -138,8 +138,8 @@
   <section id="contact" class="contact">
     <div>
       <p class="eyebrow dark">Let’s connect</p>
-      <h2>Have a challenge worth solving?</h2>
-      <p>We’d like to hear from school leaders, educators and people who believe everyday systems can work better.</p>
+      <h2>Let's build better schools together</h2>
+      <p>We’d love to hear from school leaders, educators, and institutions looking to simplify everyday operations. Whether you’re exploring our platform, planning a school pilot, or looking for a smarter way to manage your institution, we’re here to help.</p>
     </div>
     <form id="enquiry" class="form" novalidate>
       <label for="name">Your name</label>
@@ -148,12 +148,18 @@
       <input id="email" name="email" type="email" autocomplete="email" required>
       <label for="topic">I’m reaching out about</label>
       <select id="topic" name="topic">
-        <option>School pilot or product discussion</option>
-        <option>Partnership</option>
+        <option value="" selected disabled hidden>What are you intrested in</option>
+        <option>Book a Product Demo</option>
+        <option>School Management Software</option>
+        <option>School Pilot Program</option>
+        <option>Institutional Partnership</option>
+        <option>Pricing & Plans</option>
+        <option>Technical Support</option>
         <option>General enquiry</option>
+        <option>Other</option>
       </select>
       <label for="message">A little about your enquiry</label>
-      <textarea id="message" name="message" rows="3"></textarea>
+      <textarea id="message" name="message" rows="3" placeholder="Tell us about your requirements..."></textarea>
       <button class="btn" type="submit">Send enquiry</button>
       <p id="form-status" class="status" role="status" aria-live="polite"></p>
     </form>
